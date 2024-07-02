@@ -140,7 +140,7 @@ paste_bin(bingim, b3_box)
 #                         WALLPAPER SAVES TO THIS PATH:                        #
 # ---------------------------------------------------------------------------- #
 
-save_path = './wallpaper/modded_wallpaper.png'
+save_path = '**YOUR PATH HERE**'
 bingim.save(save_path)
 
 # set wallpaper
@@ -149,5 +149,5 @@ bingim.save(save_path)
 #                         WALLPAPER SETS TO THIS PATH:                         #
 # ---------------------------------------------------------------------------- #
 
-set_path = r'C:\Users\regan\OneDrive - Queensland University of Technology\Desktop\wallpaper_gen\wallpaper\modded_wallpaper.png'
+set_path = r'**YOUR PATH HERE**'
 ctypes.windll.user32.SystemParametersInfoW(20, 0, set_path, 0)
