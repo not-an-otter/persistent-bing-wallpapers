@@ -19,6 +19,7 @@ This (very amateur) script lets me have my cake and eat it too - an image that r
 If you would like to use this yourself (for whatever reason):
 * You must be using Windows (unfortunately the wallpaper setting command is Windows-specific)
 * Just save the python script to your machine and modify the `save_path` and `set_path` variables right at the very bottom (it's probably best to use absolute paths for both)
+* If you would like to add a timetable (or any other image) just save your image in the same folder as the python script and update the `image_path` variable in the script.
 * I'm in the process of trying to automate the script using batch files and Windows Task Scheduler (see `https://www.makeuseof.com/tag/use-windows-batch-file-commands-automate-repetitive-tasks/`) - feel free to try this if you'd like the script to update your wallpaper daily (you may have more luck than me!!!)
 
 ### Thanks!
