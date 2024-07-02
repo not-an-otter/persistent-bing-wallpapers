@@ -74,7 +74,8 @@ with Image.open('bing_image.jpg') as bingim:
 # ---------------------------- Image Customization --------------------------- #
 
 # load timetable image
-with Image.open('timetable.png') as timetable:
+image_path = '**YOUR PATH HERE**'            # e.g., 'timetable.png' if it's in the same folder
+with Image.open(image_path) as timetable:
     timetable.load()
 
 
