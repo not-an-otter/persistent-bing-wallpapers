@@ -1,4 +1,4 @@
-# Bing Wallpapers With Sauce
+# Persistent Bing Wallpapers
 
 A python (3.12.3) script that gets the daily bing image, adds some sauce, and sets it as the desktop background.
 
